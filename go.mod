@@ -91,3 +91,7 @@ require (
 	gopkg.in/olivere/elastic.v5 v5.0.86
 	gopkg.in/yaml.v2 v2.2.8
 )
+
+replace (
+	github.com/minio/minio-go/v7 => github.com/pflooky/minio-go/v7 v7.0.6-ap-southeast-3
+)
